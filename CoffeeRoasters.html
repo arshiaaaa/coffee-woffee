@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang=”en”>
+
+<head>
+    <title>Coffee-Woffee</title>
+    <meta charset=”utf-8” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/686cd897fe.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        nav {
+            position: fixed;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        body {
+            background-color: #f4e8da;
+        }
+
+        h1 {
+            color: #f4e8da;
+            font-family: serif;
+            font-size: 80px;
+            text-align: left;
+            margin: 20px;
+        }
+
+        p {
+            color: #6f4e37;
+            font-family: sans-serif;
+            font-size: 20px;
+            text-align: left;
+            margin: 25px;
+            font-weight: 700;
+            line-height: 30px;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: 900;
+            float: left;
+            background-color: #18130f;
+        }
+
+        ul {
+            font-family: serif;
+            list-style-type: none;
+            font-size: 25px;
+            margin: 0;
+            padding: 0px 10px 0px 0px;
+            overflow: hidden;
+            background-color: #6f4e37;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        li {
+            float: right;
+        }
+
+        li a {
+            font-family: serif;
+            display: block;
+            color: #f4e8da;
+            text-align: center;
+            padding: 10px 14px 10px 20px;
+            text-decoration: none;
+            font-weight: 100;
+        }
+
+        li a:hover {
+            background-color: #2f2620;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .main a:link {
+            color: #2f2620;
+            font-weight: bold;
+        }
+
+        .main a:visited {
+            color: #18130f;
+        }
+
+        .main a:hover {
+            color: #784229;
+        }
+
+        .main a:active {
+            color: #6f4e37;
+        }
+
+        .crmain a:link {
+            color: #2f2620;
+            font-weight: bold;
+        }
+
+        .crheader {
+            background-size: cover;
+            width: 100%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url(cr1.jpg);
+            background-repeat: no-repeat;
+            padding-top: 200px;
+            padding-bottom: 150px;
+        }
+
+        .footer {
+            background-color: #6f4e37;
+            width: 100%;
+            height: 60px;
+        }
+
+        .footer a:link {
+            color: white;
+            font-weight: bold;
+        }
+
+        .footer a:visited {
+            color: paleturquoise;
+        }
+
+        .footer a:hover {
+            color: pink;
+        }
+
+        .footer a:active {
+            color: goldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="CoffeeWoffee.html"><strong>Coffee-Woffee <i
+                            class="fas fa-coffee"></i></strong></a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Types.html">Types of Roasted Coffee</a></li>
+            <li style="background-color: #18130f;"><a href="CoffeeRoasters.html">Coffee Roasters</a></li>
+            <li><a href="CoffeeWoffee.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="crheader">
+        <h1 style="text-align: center;">Canadian coffee roasters</h1>
+    </div>
+    <div class="crmain">
+        <div class="row">
+            <div class="column">
+                <br>
+                <img src="pilot.JPG" alt="PILOT COFFEE ROASTERS" class="center" style=" width: 300px; height: 300px;">
+                <p style="text-align: center; font-size:30px; font-family: serif;"><a
+                        href="https://www.pilotcoffeeroasters.com/" style="color: #18130f;"> PILOT COFFEE ROASTERS</p>
+                </a>
+                <p style="text-align: center;">Pilot Coffee Roasters is a Toronto based roastery. It was started by Andy
+                    and Jessie Wilkin in 2009 for passion. They offer high quality coffee as they directly trade their
+                    beans. They have received various awards and certificates for their amazing coffee and friendly
+                    baristas at their cafe. They sell a lot of variety of coffee as well as brewing gear for the perfect
+                    coffee. They ship orders over $30 across Canada.</p>
+            </div>
+            <div class="column">
+                <br>
+                <img src="banif.JPG" alt="BANFF ROASTING COMPANY" class="center" style=" width: 300px; height: 300px;">
+                <p style="text-align: center; font-size:30px; font-family: serif;"><a
+                        href="https://banffroastingcompany.com/" style="color: #18130f;">BANFF ROASTING COMPANY</p></a>
+                <p style="text-align: center;">Banff Roasting Company is located in Alberta was started in 2013 by Norm
+                    O'Genski and Martin Brenner. They aim to bring it back the way coffee was enjoyed by the pioneers
+                    and our forefathers, local and fresh. They offer the freshest 100% arabica coffee products. Along
+                    with a wide variety of coffee, they also sell green beans. The customers also get a free bag of
+                    coffee on all online order. They ship all across Canada.</p>
+            </div>
+            <div class="column">
+                <br>
+                <img src="java.JPG" alt="JAVA BLEND COFFEE ROASTERS" class="center"
+                    style=" width: 300px; height: 300px;">
+                <p style="text-align: center; font-size:30px; font-family: serif;"><a
+                        href="https://javablendcoffee.com/" style="color: #18130f;">JAVA BLEND COFFEE ROASTERS</p></a>
+                <p style="text-align: center;">Situated in Nova Scotia, Java Blend Coffee Roasters was started in 1938.
+                    They are known as one of the best coffee companies in Halifax. They offer all kinds of roasts in
+                    coffee along with some really useful Brew Tech which makes making coffee fun and easy. Their coffee
+                    has been known to have an amazing
+                    taste. They ship all across the country with some delivery charges.
+                </p>
+            </div>
+            <div class="column">
+                <br>
+                <img src="49th.JPG" alt="49th PARALLEL COFFEE ROASTERS" class="center"
+                    style=" width: 300px; height: 300px;">
+                <p style="text-align: center; font-size:30px; font-family: serif;"><a href="https://49thcoffee.com/"
+                        style="color: #18130f;">49th PARALLEL COFFEE ROASTERS</p></a>
+                <p style="text-align: center;">49th Parallel Coffee Roasters is based in Vancouver, British Columbia and
+                    have a very advanced and scientific roastery. They have a wide variety of coffee flavours and each
+                    of their coffee flavours is unique on its own. They work directly with the farmers. They ship their
+                    products all over Canada and also give free shipping for purchases over $50.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p style="color: #f4e8da; text-align: center;">Images used are from the respected official websites of the
+                coffee roasters.
+            </p>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang=”en”>
+
+<head>
+    <title>Coffee-Woffee</title>
+    <meta charset=”utf-8” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/686cd897fe.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        nav {
+            position: fixed;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        body {
+            background-color: #f4e8da;
+        }
+
+        h1 {
+            color: #f4e8da;
+            font-family: serif;
+            font-size: 80px;
+            text-align: left;
+            margin: 20px;
+        }
+
+        h3 {
+            color: #6f4e37;
+            font-family: serif;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        p {
+            color: #6f4e37;
+            font-family: sans-serif;
+            font-size: 20px;
+            text-align: left;
+            margin: 25px;
+            font-weight: 700;
+            line-height: 30px;
+        }
+
+        ol {
+            color: #6f4e37;
+            font-family: sans-serif;
+            font-size: 20px;
+            margin: 25px;
+            font-weight: 700;
+            line-height: 30px;
+            text-align: center;
+            list-style-position: inside;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: 900;
+            float: left;
+            background-color: #18130f;
+        }
+
+        ul {
+            font-family: serif;
+            list-style-type: none;
+            font-size: 25px;
+            margin: 0;
+            padding: 0px 10px 0px 0px;
+            overflow: hidden;
+            background-color: #6f4e37;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        nav li {
+            float: right;
+        }
+
+        nav li a {
+            font-family: serif;
+            display: block;
+            color: #f4e8da;
+            text-align: center;
+            padding: 10px 14px 10px 20px;
+            text-decoration: none;
+            font-weight: 100;
+        }
+
+        nav li a:hover {
+            background-color: #2f2620;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .torcheader {
+            background-size: cover;
+            width: 100%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url(ccc.jpg);
+            background-repeat: no-repeat;
+            padding-top: 200px;
+            padding-bottom: 150px;
+        }
+
+        .footer {
+            background-color: #6f4e37;
+            width: 100%;
+            height: 60px;
+        }
+
+        .footer a:link {
+            color: white;
+            font-weight: bold;
+        }
+
+        .footer a:visited {
+            color: paleturquoise;
+        }
+
+        .footer a:hover {
+            color: pink;
+        }
+
+        .footer a:active {
+            color: goldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="CoffeeWoffee.html"><strong>Coffee-Woffee <i
+                            class="fas fa-coffee"></i></strong></a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li style="background-color: #18130f;"><a href="Types.html">Types of Roasted Coffee</a></li>
+            <li><a href="CoffeeRoasters.html">Coffee Roasters</a></li>
+            <li><a href="CoffeeWoffee.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="torcheader">
+        <h1 style="text-align: center;">Types of roasted coffee</h1>
+    </div>
+    <div>
+        <div class="row">
+            <div class="column">
+                <br>
+                <img src="light.jpg" alt="Light Roasted Coffee" class="center" style=" width: 300px; height: 300px;">
+                <p style="text-align: center; font-family: serif; font-size: 30px;">Light roast </p>
+                <ol>
+                    <li>Toasted</li>
+                    <li>Light body</li>
+                    <li>High acidity</li>
+                </ol>
+            </div>
+            <div class="column">
+                <br>
+                <img src="medium.jpg" alt="Medium Roasted Coffee" class="center" style=" width: 300px; height: 300px;">
+                <p style="text-align: center; font-family: serif; font-size: 30px;">Medium roast </p>
+                <ol>
+                    <li>Rounded</li>
+                    <li>Sweet flavour</li>
+                    <li>Extra body</li>
+                </ol>
+            </div>
+            <div class="column">
+                <br>
+                <img src="dark.jpg" alt="Dark Roasted Coffee" class="center" style=" width: 300px; height: 300px;">
+                <p style="text-align: center; font-family: serif; font-size: 30px;">Dark roast </p>
+                <ol>
+                    <li>Heavy</li>
+                    <li>Full body</li>
+                    <li>Bittersweet</li>
+                </ol>
+            </div>
+            <div class="column">
+                <br>
+                <img src="edark.jpg" alt="Extra Dark Roasted Coffee" class="center"
+                    style=" width: 300px; height: 300px;">
+                <p style="text-align: center; font-family: serif; font-size: 30px;">Extra Dark roast </p>
+                <ol>
+                    <li>Smokey</li>
+                    <li>Burnt</li>
+                    <li>Intensely bitter</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p style="color: #f4e8da; text-align: center;">Image credits and Reference: <a
+                href="https://www.webstaurantstore.com/guide/657/types-of-coffee-roasts.html">webstaurantstore.com</a>
+        </p>
+    </div>
+</body>
+
+</html>
